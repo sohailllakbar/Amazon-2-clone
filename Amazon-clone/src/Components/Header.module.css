@@ -1,0 +1,246 @@
+.header__container {
+  height: max-content;
+  background-color: #09090c;
+  margin: 0%;
+  position: sticky;
+  top: 0%;
+  z-index: 30000;
+
+  padding: 0px;
+}
+
+
+.sign__option{
+  background-color: #09090c;
+  border: 1px solid white;
+}
+
+.return__option{
+ margin-bottom: -8px;
+}
+
+.yourtext__option{
+  margin-bottom: -8px;
+}
+.header__logo{
+  margin-right: 42px
+}
+
+.header__text__options:hover{
+  
+ 
+  color: rgba(245, 245, 245, 0.741);
+}
+
+.search__header {
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+
+
+.search__input {
+  width: 100%;
+  object-fit: contain;
+  margin-right: -1px;
+
+  text-transform: capitalize;
+  outline: none;
+  color: #4d4c53;
+ 
+}
+
+.header__search__icon {
+  background-color: #ee940c;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__text__options {
+  color: white;
+  cursor: pointer;
+ font-family: sans-serif;
+}
+
+.return__option {
+  display: block;
+}
+
+.yourtext__option {
+  display: block;
+}
+
+.basketball__option {
+  margin-right: 10px;
+}
+
+/* this is for responsiveness for size greater than 519px  */
+
+@media (min-width: 617px) {
+  .sign__option {
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight:600;
+    font-family: inherit;
+    
+    
+  }
+
+  .basketball__option{
+margin-bottom: 13px;
+    }
+  .border__input{
+    border: 2px solid hwb(36 0% 2%);
+   
+  }
+  
+
+  .return__option{
+    font-size: clamp(0.6rem, 1vw, 2rem);
+  }
+
+  .basketball__option {
+    font-size: clamp(1rem, 2vw, 2rem);
+  }
+
+  .numbertext__option {
+    font-size: clamp(1rem, 4vw, 2rem);
+  }
+
+  .order__option {
+    font-size: clamp(1rem, 3vw, 2rem); 
+  }
+
+  
+
+  .header__options {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100px;
+  }
+
+  .yourtext__option {
+    font-size: clamp(0.6rem, 2vw, 1rem);
+  }
+
+  .prime__option {
+    font-size: clamp(1rem, 2vw, 2rem);
+    font: 900;
+  }
+
+  .header__container {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 400px;
+    justify-content: space-between;
+  }
+
+  .search__input {
+    height: 39px;
+    font-size: 18px;
+    
+  }
+
+  .header__logo__img {
+    width: 84px;
+    height: 100%;
+    position: relative;
+    margin: 0px 5px;
+  }
+
+  .search__header {
+    flex: 1;
+    min-width: 200px;
+    margin: 0px 10px;
+  }
+}
+
+/*this is for the search container*/
+@media (max-width: 615px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    min-width: 313px;
+  }
+  .return__option {
+    font-size: clamp(0.6rem, 4vw, 2rem);
+  }
+  
+  .yourtext__option{
+    font-size: clamp(0.6rem, 4vw, 2rem);
+  }
+
+  .basketball__option{
+    font-size: clamp(1.3rem, 5vw, 2rem);
+    font-weight: 900;
+  }
+  .prime__option{
+    font-size: clamp(1rem, 5vw, 2rem);
+    font-weight: 600;
+  }
+.sign__option {
+    font-size: clamp(1rem, 5vw, 2rem);
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .order__option {
+    font-size: clamp(1rem, 5vw, 2rem);
+    font-weight: 600;
+
+  }
+
+  .logo__container {
+    display: flex;
+    justify-content: center;
+  }
+  .header__logo__container {
+    position: relative;
+    height: 100%;
+  }
+
+  .search__input{
+    border: none;
+  }
+
+  .header__logo {
+    width: 80px;
+margin-right: 22px;
+  }
+  .search__header {
+    background-color: white;
+    flex: 1;
+    min-width: 200px;
+    min-height: 6px;
+    margin: 0px 10px;
+
+    border-radius: 5px;
+    height: 33px;
+  }
+}
+
+/*this is for the text options*/
+@media (max-width: 615px) {
+  .header__options {
+    display: flex;
+    justify-content: space-around;
+    min-width: 180px;
+    margin-top: 14px;
+    text-align: center;
+  }
+ 
+  .numbertext__option {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .header__search__icon {
+    border-radius: 5px;
+  }
+}

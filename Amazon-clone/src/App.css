@@ -1,0 +1,30 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+#carouselExampleIndicators{
+  height: max-content;
+  object-fit: contain;
+ 
+}
+
+.carousel-inner{
+  height: 85vh;
+}
+.carousel-item{
+  margin: 0;
+  padding: 0;
+}
+
+.parent__container__images{
+  background: transparent;
+}
+
+.image__container{
+  position: relative;
+}
+
+
+
